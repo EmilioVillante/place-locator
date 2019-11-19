@@ -11,7 +11,7 @@ yarn start
 
 ## Hosting
 
-(Hosted via Heroku)[https://ev-finder.herokuapp.com/]
+[Hosted via Heroku](https://ev-finder.herokuapp.com/)
 
 ## Third party library choices
 

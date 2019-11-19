@@ -14,6 +14,9 @@ const Steps = ({steps}) => {
             {steps.map((step) => (
                 <div key={step.encoded_lat_lngs} className="mb-2 border rounded p-2 bg-white shadow-sm">
                     <p dangerouslySetInnerHTML={{__html: step.instructions}}/>
+                    {step.distance ? (
+                        <span className="text-muted" dangerouslySetInnerHTML={{__html: step.distance.text}}/>
+                    ) : null}
                 </div>
             ))}
         </div>

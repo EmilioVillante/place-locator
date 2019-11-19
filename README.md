@@ -14,7 +14,7 @@ yarn start
 - bootstrap:
     - Simplifies styling and helps build a decent looking application easily.
     - Only the parts of bootstrap used are imported to prevent loading unecessary styles.
-- lodadebounce-promise:
+- debounce-promise:
     - Simplifies debouncing actions like typing in the Typeahead component.
 - react-google-button:
     - Consistency of google branding across websites is important and this provides a quick and easy solution to styling.

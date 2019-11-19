@@ -51,7 +51,7 @@ export default () => {
 
     return (
         <div className="row h-100 no-gutters">
-            <section className="col-lg-2 col-3 col-sm-4 px-3 d-flex flex-column pane h-100">
+            <section className="col-4 px-3 d-flex flex-column pane h-100">
                 <Nav loading={loadingDirections}/>
                 <Typeahead loadOptions={searchLocation}
                            getOptionValue={(option) => option.place_id}

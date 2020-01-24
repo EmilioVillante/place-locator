@@ -13,7 +13,7 @@
 <script>
     export default {
         name: 'Nav',
-        data: function() {
+        data () {
             return {
                 title: process.env.VUE_APP_TITLE
             }

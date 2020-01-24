@@ -15,7 +15,7 @@
         name: 'Index',
         store,
         computed: mapState(['user', 'loading']),
-        created: function() {
+        created () {
             // Hook into firebase authentication change event to determine if a user exists
             this.$store.state.firebase.auth.onAuthStateChanged((user) => {
                 this.$store.commit('authenticated', user);

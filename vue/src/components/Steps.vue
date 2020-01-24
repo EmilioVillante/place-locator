@@ -1,6 +1,5 @@
 <template>
-    <div v-if="steps.length"
-         class="row py-3 overflow-auto flex-grow-1 flex-shrink-1 no-gutters flex-column flex-nowrap">
+    <div v-if="steps.length" class="row py-3 overflow-auto flex-grow-1 flex-shrink-1 no-gutters flex-column flex-nowrap">
         <div v-for="step in steps"
              :key="step.encoded_lat_lngs"
              class="mb-2 border rounded p-2 bg-white shadow-sm">

@@ -24,7 +24,7 @@
 
     export default {
         name: 'Locator',
-        data: function() {
+        data () {
             return {
                 map: undefined,
                 steps: undefined,
@@ -56,7 +56,7 @@
                 }
             }
         },
-        mounted: function() {
+        mounted () {
             this.map = new Map(document.getElementById("map"));
         },
         components: {Nav, Steps, Typeahead, LocationLabel}

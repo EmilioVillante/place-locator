@@ -25,7 +25,7 @@
                 default: 300
             }
         },
-        data: function() {
+        data () {
             return {
                 query: '',
                 options: [],

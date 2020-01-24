@@ -1,0 +1,49 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/utilities/flex';
+@import '~bootstrap/scss/utilities/display';
+@import '~bootstrap/scss/utilities/position';
+@import '~bootstrap/scss/utilities/overflow';
+@import '~bootstrap/scss/utilities/sizing';
+@import '~bootstrap/scss/utilities/spacing';
+@import '~bootstrap/scss/utilities/shadows';
+@import '~bootstrap/scss/utilities/borders';
+@import '~bootstrap/scss/utilities/screenreaders';
+@import '~bootstrap/scss/utilities/text';
+@import '~bootstrap/scss/utilities/background';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/spinners';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/input-group';
+@import '~bootstrap/scss/forms';
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.pane {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
